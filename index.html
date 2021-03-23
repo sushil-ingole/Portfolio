@@ -4,34 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | Sushil Ingole</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sushil's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-    <hr>
-    <h2>@typography</h2>
+    <nav class="navigation">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" alt="">
+        <h1 class="hero-heading">Web Developer Sushil</h1>
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
+    </section>
 
-    <h1>This is the biggest heading</h1>
-    <h1>This is the second biggest</h1>
-    <p>This text is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text</small>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+        </div>
+    </section>
 
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the end of the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <footer class="footer">
+        <div class="footer-header">Join me here</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a href="https://twitter.com/SushilIngole2">twitter</a></li>
+            <li class="list-item-inline"><a href="https://github.com/sushil-ingole">github</a></li>
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/sushil-ingole-557aa7141/">linkedIn</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
